@@ -3,7 +3,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
-### 安装 iterm2
+### 安装 iTerm2
 ~~~bash
 brew install iterm2
 ~~~
@@ -31,8 +31,6 @@ cd ~ && git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 ~~~
-
-### 安装字体 PowerlineSymbols.otf
 
 ### 编辑 ~/.zshrc
 ~~~bash
@@ -69,3 +67,9 @@ eval $(thefuck --alias)
 # other env
 
 ~~~
+
+### iTerm2 导入配置文件 Default.json
+
+### 解决中文乱码 安装字体 PowerlineSymbols.otf
+
+### tmux自定义配置 .tmux.conf.local
