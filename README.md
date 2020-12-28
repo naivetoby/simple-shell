@@ -36,6 +36,7 @@ cp .tmux/.tmux.conf.local .
 ~~~bash
 source ~/.profile
 export ZSH=~/.oh-my-zsh
+ZSH_THEME="zhann"
 source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 ~~~
