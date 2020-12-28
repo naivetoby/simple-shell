@@ -13,6 +13,11 @@ brew install iterm2
 brew install zsh
 ~~~
 
+### 安装 Oh My Zsh
+~~~bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+~~~
+
 ### 安装 fzf
 ~~~bash
 brew install fzf
